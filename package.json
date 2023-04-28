@@ -1,0 +1,31 @@
+{
+  "name": "chessrating",
+  "version": "1.0.0",
+  "description": "TypeScript library for calculating Glicko2 rating",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Maciej Wiśniewski",
+    "email": "macwis162@gmail.com",
+    "url": "https://github.com/mwisniewski00"
+  },
+  "keywords": [
+    "chess",
+    "chessrating",
+    "glicko2",
+    "rating"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.194",
+    "lodash": "^4.17.21",
+    "typescript": "^5.0.4"
+  }
+}
