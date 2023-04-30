@@ -1,10 +1,11 @@
 import { Player } from "./Player";
-import { Match, Score } from "./Match";
+import { Match } from "./Match";
 import { calculateDelta, calculateV, h } from "./glicko2Functions";
 import { MatchCalculationData } from "./MatchCalculationData";
 import { getPlayerMatches, revertScore } from "./utils";
 import { TournamentMatch } from "./TournamentMatch";
 import * as _ from "lodash";
+import { Score } from "./types";
 
 export default class Glicko2 {
   private tau: number;

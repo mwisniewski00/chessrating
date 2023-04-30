@@ -1,4 +1,4 @@
-import { Score } from "./Match";
+import { Score } from "./types";
 import { TournamentPlayer } from "./TournamentPlayer";
 
 export class TournamentMatch {
