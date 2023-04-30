@@ -1,12 +1,16 @@
 {
   "name": "chessrating",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript library for calculating Glicko2 rating",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mwisniewski00/chessrating.git"
+  },
   "scripts": {
     "watch": "tsc --watch",
     "build": "tsc"

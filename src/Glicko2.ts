@@ -111,7 +111,10 @@ export default class Glicko2 {
 
   static executeMatch(player1: Player, player2: Player, result: Score) {
     const player1Match = new Match(player2, result);
-    const player2Match = new Match(player1, revertScore(result));
+    const player2Match = new Match(
+      new Player(player1.rating, player1.ratingDeviation, player1.volatility),
+      revertScore(result)
+    );
     player1.executeMatches([player1Match]);
     player2.executeMatches([player2Match]);
   }
