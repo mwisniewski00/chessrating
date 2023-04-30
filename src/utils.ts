@@ -1,7 +1,7 @@
-import { Match, Score } from "./Match";
+import { Match } from "./Match";
 import { Player } from "./Player";
 import { TournamentMatch } from "./TournamentMatch";
-import { TournamentPlayer } from "./TournamentPlayer";
+import { Score } from "./types";
 
 export const revertScore = (score: Score): Score => {
   if (score == 0.5) return score;

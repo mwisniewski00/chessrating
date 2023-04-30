@@ -20,7 +20,8 @@
     "chess",
     "chessrating",
     "glicko2",
-    "rating"
+    "rating",
+    "chess-rating"
   ],
   "license": "ISC",
   "dependencies": {

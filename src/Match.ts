@@ -1,6 +1,5 @@
 import { Player } from "./Player";
-
-export type Score = 0 | 0.5 | 1;
+import { Score } from "./types";
 
 export class Match {
   opponent: Player;
